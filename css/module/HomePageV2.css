@@ -28,7 +28,11 @@ body {
 }
 
 .sprite {
+<<<<<<< HEAD
     background: url("../../images/_temp/sprite.png") no-repeat;
+=======
+    background: url("../images/_temp/sprite.png") no-repeat;
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 }
 
 .container {
@@ -137,7 +141,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 	#spriteLogo {
 		width: 206px;
 		height: 71px;
+<<<<<<< HEAD
 		background: transparent url(../../images/_temp/animatedBeepiLogo.png);
+=======
+		background: transparent url(../images/_temp/animatedBeepiLogo.png);
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
         background-size: auto 71px;
 		display: block;
 		float: left;
@@ -145,7 +153,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 		position: absolute;
 	}
 	#dashboard {
+<<<<<<< HEAD
 		background: url("../../images/_temp/sprite.png") repeat scroll 0 0 transparent;
+=======
+		background: url("../images/_temp/sprite.png") repeat scroll 0 0 transparent;
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: -566px -403px;
 		float: right;
 		margin: 1.7em 0 0 0;
@@ -175,7 +187,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 
 #left-menu .circle_green {
     /*background-color: #FF0000;*/
+<<<<<<< HEAD
     background: url("../../images/_temp/sprite.png") repeat scroll 0 0 transparent;
+=======
+    background: url("../images/_temp/sprite.png") repeat scroll 0 0 transparent;
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
     background-position: 0 -73px !important;
     border-radius: 8em 0 0 8em;
     color: #676767;
@@ -316,7 +332,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 }
 
 #right-menu .circle_cyan {
+<<<<<<< HEAD
     background: url("../../images/_temp/sprite.png") repeat scroll 0 0 transparent;
+=======
+    background: url("../images/_temp/sprite.png") repeat scroll 0 0 transparent;
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
     background-position: 245px -73px !important;
     border-radius: 0 8em 8em 0;
     /*background: none repeat scroll 0 0 rgba(0, 153, 255, 0.5);*/
@@ -764,7 +784,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 	
 	
 	#left-menu {
+<<<<<<< HEAD
 		background: url("../../images/_temp/slide_bg.gif") repeat-x scroll center top rgba(0, 0, 0, 0);
+=======
+		background: url("../images/_temp/slide_bg.gif") repeat-x scroll center top rgba(0, 0, 0, 0);
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		float: left;
 		height: auto;
 		margin: 111px 0 0;
@@ -773,7 +797,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 	}
 	
 	#right-menu {
+<<<<<<< HEAD
 		background: url("../../images/_temp/slide_bg.gif") repeat-x scroll center top rgba(0, 0, 0, 0);
+=======
+		background: url("../images/_temp/slide_bg.gif") repeat-x scroll center top rgba(0, 0, 0, 0);
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		float: left;
 		height: auto;
 		margin: 111px 0 0;
@@ -833,7 +861,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 
 /* RIBONS {*/
 #ribbons {
+<<<<<<< HEAD
     background: url("../../images/_temp/slide_bg.gif") repeat-x scroll center top rgba(0, 0, 0, 0);
+=======
+    background: url("../images/_temp/slide_bg.gif") repeat-x scroll center top rgba(0, 0, 0, 0);
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
     float: left;
     height: auto;
     width: 100%;
@@ -893,7 +925,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 }
 
 .homepageCarPhoto {
+<<<<<<< HEAD
 	background-image: url("../../images/_temp/banner1.png");
+=======
+	background-image: url("../images/_temp/banner1.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 50% auto;
@@ -968,7 +1004,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 	}
 	
 	.btFacebookFooter {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/bt_face.png");
+=======
+		background-image: url("../images/_temp/bt_face.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 0;
 		background-repeat: no-repeat;
 		display: block;
@@ -976,13 +1016,21 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 		width: 39px;
 	}
 	.btFacebookFooter:hover {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/bt_face.png");
+=======
+		background-image: url("../images/_temp/bt_face.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 -39px;
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
 	.btTwitterFooter {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/bt_twitter.png");
+=======
+		background-image: url("../images/_temp/bt_twitter.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 0;
 		background-repeat: no-repeat;
 		display: block;
@@ -990,13 +1038,21 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 		width: 39px;
 	}
 	.btTwitterFooter:hover {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/bt_twitter.png");
+=======
+		background-image: url("../images/_temp/bt_twitter.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 -39px;
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
 	.btBeepiLogoFooter {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/logo_footer.png");
+=======
+		background-image: url("../images/_temp/logo_footer.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 0;
 		background-repeat: no-repeat;
 		display: block;
@@ -1004,7 +1060,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 		width: 39px;
 	}
 	.btPinterestFooter {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/bt_pinterest.png");
+=======
+		background-image: url("../images/_temp/bt_pinterest.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 0;
 		background-repeat: no-repeat;
 		display: block;
@@ -1012,7 +1072,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 		width: 39px;
 	}
 	.btPinterestFooter:hover {
+<<<<<<< HEAD
 		background-image: url("../../images/_temp/bt_pinterest.png");
+=======
+		background-image: url("../images/_temp/bt_pinterest.png");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
 		background-position: 0 -39px;
 		background-repeat: no-repeat;
 		cursor: pointer;
@@ -1180,7 +1244,11 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 }
 .testimonialBigInfo {
     background-color: #00BD6F;
+<<<<<<< HEAD
     background-image: url("../../images/_temp/arrow_testi_info.gif");
+=======
+    background-image: url("../images/_temp/arrow_testi_info.gif");
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
     background-position: right 108px;
     background-repeat: no-repeat;
     border-radius: 5px 0 0 5px;
@@ -1263,6 +1331,7 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 	color: #00BD6F;
 }
 .long_bg{width:100%;text-align:center;clear:both;height:55px;background-color:#486a00;line-height:55px;color: #fff;}
+<<<<<<< HEAD
 .jcImgScroll { position:relative; height:342px;  }
 .jcImgScroll li { border:1px solid #ccc; }
 .jcImgScroll li a { background:#fff; display:block; height:340px;  }
@@ -1272,3 +1341,5 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
 .jcImgScroll em.sNext { background:url(../../images/common//arrow-right.png) no-repeat right center;}
 .jcImgScroll dl dd { background:url(../../images/common//NumBtn.png) no-repeat 0 bottom; text-indent:-9em; }
 .jcImgScroll dl dd:hover,.jcImgScroll dl dd.curr { background-position:0 0; }
+=======
+>>>>>>> 306b3fb35bb8b2950b4fd52d3bd92ff3906b4385
