@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>left</title>
+  <link rel="stylesheet" href="../../css/module/HomePageV2.css">
+  <link rel="stylesheet" href="../../css/module/HomePageLeft.css">
+</head>
+<body style="background-color:papayawhip;width:100%;">
+  <div class="left-wrapper" style="background-color:#fff;">
+    <div class="left-tips">
+      <p><span class="left-t-icons"></span><span class="left-t-txt">12345</span></p>
+      <p><span class="left-t-icons"></span><span class="left-t-txt">1234</span></p>
+      <p><span class="left-t-icons"></span><span class="left-t-txt">1234</span></p>
+      <p><span class="left-t-icons"></span><span class="left-t-txt">23454</span></p>
+    </div>
+    <div class="left-flow">
+      <div class="left-f-title">售车流程</div>
+      <div class="waterfall-wrapper">
+        <div id="waterfall"></div>
+        <div class="left-f-txt left-f-p1">网上提交信息</div>
+        <div class="left-f-txt left-f-p2">到一品车鉴定中心检测</div>
+        <div class="left-f-txt left-f-p3">免费上门验车</div>
+        <div class="left-f-txt left-f-p4">车况车价信息发布</div>
+        <div class="left-f-txt left-f-p5">预约试车、支付定金</div>
+        <div class="left-f-txt left-f-p6">办理过户手续</div>
+        <div class="left-f-txt left-f-p7">交易完成</div>
+      </div>
+      <div class="left-f-button">扬起售车之帆</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../../js/waterfall.js"></script>
+  <script type="text/javascript">
+  new WaterFall({
+    id: 'waterfall',
+    cover: '../../images/common/fall_cover.png',
+    background: '../../images/common/fall_bg.png',
+    time: 10
+  });
+  </script>
+</body>
+</html>

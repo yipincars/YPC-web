@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html class="sb-init sb-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>一品车</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="../../css/module/HomePageV2.css">
+    <link rel="stylesheet" type="text/css" href="../../css/module/CarSavvyTemp.css">
+    <link rel="stylesheet" type="text/css" href="../../css/module/FBTwitterFooter.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common/common.css">
+    <!-- jQuery -->
+    <script async src="js/analytics.js"></script><script src="images/_temp/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../../js/jquery.spriteOnHover-0.2.5.js"></script>
+    <script type="text/javascript" src="../../js/BeepiCookies.js"></script>
+
+    <!-- Slidebars -->
+    <script type="text/javascript" src="js/slidebars.js"></script>
+
+    <!-- Slider -->
+    <link rel="stylesheet" href="js/HomePageBxSlider.css" type="text/css">
+    <script type="text/javascript" src="js/HomePageBxSlider.js"></script>
+    <script type="text/javascript">
+        
+        function preloadPressLogos() {
+            img1 = new Image();
+            img2 = new Image();
+            img3 = new Image();
+            img4 = new Image();
+            img5 = new Image();
+            img7 = new Image();
+            img8 = new Image();
+            img1.src = "../../images/_temp/Press/Logos/Homepage/ReCode_over.png";
+            img2.src = "../../images/_temp/Press/Logos/Homepage/Bloomberg_over.png";
+            img3.src = "../../images/_temp/Press/Logos/Homepage/SFChronicle_over.png";
+            img4.src = "../../images/_temp/Press/Logos/Homepage/TechCrunch_over.png";
+            img5.src = "../../images/_temp/Press/Logos/Homepage/HuffPost_over.png";
+            img7.src = "../../images/_temp/Press/Logos/Homepage/LATimes_over.png";
+            img8.src = "../../images/_temp/Press/Logos/Homepage/WSJ_over.png";
+        }
+
+        function adjustCarPhotoSize() {
+            var iWidth = $(window).width();
+            if (iWidth > 2000) {
+                $(".homepageCarPhoto").css("background-size", "65% auto");
+            } else {
+                $(".homepageCarPhoto").css("background-size", "87% auto");
+            }
+        }
+
+        $(document).ready(function () {
+            $(".conten_left .bot_hwo, .conten_left_hwo .bot_hwo").bind({
+                mouseenter: function (e) {
+                    $(this).toggleClass("hover");
+                },
+                mouseleave: function (e) {
+                    $(this).toggleClass("hover");
+                },
+                click: function (e) {
+                    window.location = '/Sell';
+                }
+            });
+
+            $(".conten_right .bot_hwo, .conten_right_hwo .bot_hwo").bind({
+                mouseenter: function (e) {
+                    $(this).toggleClass("hover");
+                },
+                mouseleave: function (e) {
+                    $(this).toggleClass("hover");
+                },
+                click: function (e) {
+                    window.location = '/Buy';
+                }
+            });
+
+            $(".main .bot_our").bind({
+                mouseenter: function (e) {
+                    $(this).toggleClass("hover");
+                },
+                mouseleave: function (e) {
+                    $(this).toggleClass("hover");
+                },
+                click: function (e) {
+                    //;
+                }
+            });
+
+            $("#header #dashboard").bind({
+                mouseenter: function (e) {
+                    $(this).toggleClass("hover_dashboard");
+                },
+                mouseleave: function (e) {
+                    $(this).toggleClass("hover_dashboard");
+                },
+                click: function (e) {
+                    window.location = '/Dashboard';
+                }
+            });
+
+            $(".bot_email").bind({
+                mouseenter: function (e) {
+                    $(this).toggleClass("hover_email");
+                },
+                mouseleave: function (e) {
+                    $(this).toggleClass("hover_email");
+                },
+                click: function (e) {
+                    window.location = '/ContactUs';
+                }
+            });
+
+
+            adjustVideoPosition();
+            adjustCarPhotoSize();
+            preloadPressLogos();
+            $('#spriteLogo').spriteOnHover({ fps: 30, orientation: 'horizontal', rewind: true, numberOfFrames: 41 });
+        });
+
+        window.onresize = function (event) {
+            adjustVideoPosition();
+            adjustCarPhotoSize();
+        }
+
+        if (document.images) {
+            primg1 = new Image();
+            primg1.src = "../../images/_temp/HomePageVideoPlayOver.png";
+        }
+
+        function btPlayMouseOver(bt) {
+            bt.src = "../../images/_temp/HomePageVideoPlayOver.png";
+        }
+
+        function btPlayMouseOut(bt) {
+            bt.src = "../../images/_temp/HomePageVideoPlay.png";
+        }
+
+        function playBeepiLogoSound() {
+            var shouldPlaySound = getCookie('muteBeepiLogoSound') == null;
+            if (shouldPlaySound) {
+                $("#beep-one")[0].play();
+            }
+
+            setCookie('muteBeepiLogoSound', 'true', 15);
+        }
+    </script>
+</head>
+<body>
+    <!-- Left Menu { -->
+    <div id="left-menu" class="sb-slidebar sb-left sb-style-push sb-active" style="margin-left: -750px; transform: translate(0px);">
+        <div>
+            <div class="conten_left">
+                <div class="text">
+                    Selling a car?<br>
+                    We take sellers from 0 to Happy!
+                </div>
+                <div class="bot_hwo">Let's start - Click here!</div>
+                <div class="circle_green"></div>
+            </div>
+            <div class="ribbon"></div>
+            <div class="destacados">
+                <div class="items">
+                    <div class="sprite icono_1"></div>
+                    <div class="detail">Pleasing Prices - get more than trade-in offers, guaranteed!</div>
+                </div>
+                <div class="items">
+                    <div class="sprite icono_2"></div>
+                    <div class="detail">You're Covered - your car will sell in 30 days, or we'll buy it from you.</div>
+                </div>
+                <div class="items">
+                    <div class="sprite icono_3"></div>
+                    <div class="detail">Leased? Financed? No problem! We'll handle all the paperwork, you just sit back and relax.</div>
+                </div>
+            </div>
+            <div class="conten_left_hwo">
+                <div class="bot_hwo">Ready to sell? Click here!</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- } Left Menu -->
+
+    <!-- Right Menu { -->
+    <div id="right-menu" class="sb-slidebar sb-slidebar-r sb-right sb-style-push sb-active" style="margin-right: -750px; transform: translate(0px);">
+        <div>
+            <div class="conten_right">
+                <div class="text">
+                    Car buying in the 21st century.<br>
+                    Get ready to be Beepin' joyful!
+                </div>
+                <div class="bot_hwo">Let's start - Click here!</div>
+                <div class="circle_cyan"></div>
+            </div>
+            <div class="ribbon"></div>
+            <div class="destacados">
+                <div class="items">
+                    <div class="sprite icono_1"></div>
+                    <div class="detail">10-day money back guarantee. You don't like the car? We'll take it back.</div>
+                </div>
+                <div class="items">
+                    <div class="sprite icono_3"></div>
+                    <div class="detail">
+                        Not just Pre Owned - Beepi Certified!<br>
+                        Every car passed our famous 185-point inspection.
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="sprite icono_2"></div>
+                    <div class="detail">We'll do all the work for you and deliver to your doorstep.</div>
+                </div>
+            </div>
+            <div class="conten_right_hwo">
+                <div class="bot_hwo">Ready to buy? Click here!</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- } Right Menu -->
+
+    <!-- Header { -->
+    <div id="header">
+        <div class="container first">
+            <div class="header_conten">
+                <div id="spriteLogo">
+                    <a href="#ypc.html">
+                        <img src="../../images/common/logo.png" width="auto" height="58" alt="Beepi">
+                    </a>
+                </div>
+                <div style="width: 768px; float: left; margin-top: 45px; margin-left: 680px;">
+                    <table class="tblHeader">
+                        <tbody><tr style="vertical-align: middle;">
+                            <td style="cursor: pointer;" onclick="window.location = &#39;/BackseatDriver&#39;;"><img src="../../images/_temp/ico_blog_small.png"></td>
+                            <td style="cursor: pointer;" onclick="window.location = &#39;/BackseatDriver&#39;;"><span class="headerTxt16">首页</span></td>
+                            <td style="width: 10px; text-align: center;"><img src="../../images/_temp/buttons_border_allGray.gif" width="1" height="20" alt="divider" style="margin-top: 3px;"></td>
+                            <td style="cursor: pointer;" onclick="window.location = &#39;/TopFiveQuestions&#39;;"><img src="../../images/_temp/ico_5_small.png"></td>
+                            <td style="cursor: pointer;" onclick="window.location = &#39;/TopFiveQuestions&#39;;"><span class="headerTxt16">问题解答</span></td>
+                            <td style="width: 10px; text-align: center;"><img src="../../images/_temp/buttons_border_allGray.gif" width="1" height="20" alt="divider" style="margin-top: 3px;"></td>
+                            <td style="cursor: pointer;" onclick="window.location = &#39;/BeepiCertified&#39;;"><img src="../../images/_temp/ico_certified_small.png"></td>
+                            <td style="cursor: pointer;" onclick="window.location = &#39;/BeepiCertified&#39;;"><span class="headerTxt16">售后服务</span></td>
+                            <td style="width: 10px; text-align: center;"><img src="../../images/_temp/buttons_border_allGray.gif" width="1" height="20" alt="divider" style="margin-top: 3px;"></td>
+                            <td style="cursor: pointer; font-weight: 500;" class="verde" onclick="window.location = &#39;/Sell&#39;;">售车</td>
+                            <td style="width: 10px; text-align: center;"><img src="../../images/_temp/buttons_border_allGray.gif" width="1" height="20" alt="divider" style="margin-top: 3px;"></td>
+                            <td style="cursor: pointer; font-weight: 500;" class="beepiColor" onclick="window.location = &#39;/Buy&#39;;">购车</td>
+                        </tr>
+                    </tbody></table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- } Header -->
+
+
+    <div id="sb-site" style="min-height: 1612px; transform: translate(0px);">
+        <div id="leftPanelButton" class="skel-panels-overlay skel-panels-overlay-top-left" style="z-index: 10000; width: 197px; height: 44px; top: 0px; left: 0px;">
+            <div onclick="window.location=&#39;/Sell&#39;" data-args="leftPanel" data-action="togglePanel" class="toggle YPC_ico YPC_ico_l_sell" style="cursor: pointer;">
+                <div class="menu-buton"></div>
+            </div>
+        </div>
+        <div id="rightPanelButton" class="skel-panels-overlay skel-panels-overlay-top-right" style="z-index: 10000; width: 235px; height: 44px; top: 0px; right: 0px;">
+            <div onclick="window.location=&#39;/Buy&#39;" data-args="rightPanel" data-action="togglePanel" class="toggle YPC_ico YPC_ico_r_buy" style="cursor: pointer;">
+                <div class="menu-buton"></div>
+            </div>
+        </div>
+        <div id="ribbons">
+            <div id="divHomepageTitle" class="ribbon_buy">
+                <div class="title homepageCarPhoto" style="height: 475px; background-size: 50%% auto;">
+                </div>
+            </div>
+        </div>
+            <div class="long_bg">
+                <div class="long_bg_center">
+                    <h2>一品车 —— 专注于优质二手车的交易平台</h2>
+                </div>
+            </div>
+        <div class="main_separador_color">
+            <div class="container main" id="main">
+                <h3 class="guranteeTitle"><i class="YPC_ico_cn YPC_ico"></i></h3>
+
+                <div class="row">
+                    <div class="a4u">
+                        <div class="box_index">
+                            <div class="box_conten_2 line_right">
+                                <div class="YPC_ico YPC_ico_yzc"></div>
+                            </div>
+                            <div class="box_conten line_right">
+                                <p>绝对优质的二手车</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="a4u">
+                        <div class="box_index">
+                            <div class="box_conten_2">
+                                <div class="YPC_ico YPC_ico_price"></div>
+                            </div>
+                            <div class="box_conten">
+                                <p>
+                                    车价车况完全透明
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="a4u">
+                        <div class="box_index">
+                            <div class="box_conten_2 line_left">
+                                <div class="YPC_ico YPC_ico_sh"></div>
+                            </div>
+                            <div class="box_conten line_left">
+                                <p>
+                                    完善的售后服务
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="a12u" id="content">
+            <div class="footer">
+                <table style="width: 910px; line-height: normal; letter-spacing: normal; border-collapse: collapse; border-spacing: 0px; margin: 0 auto 0 auto;" cellpadding="3">
+                    <tbody><tr>
+                        <td style="width: 62px; vertical-align: middle;">
+                            <img src="../../images/_temp/logo_footer.png" width="40" height="39" alt="Beepi">
+                        </td>
+                        <td style="width: 138px;" class="txt14 footerLine">
+                            <ul class="footerLinkList">
+                                <li><a href="https://www.beepi.com/Sell">Sell a Car</a></li>
+                                <li><a href="https://www.beepi.com/Buy">Buy a Car</a></li>
+                                <li><a href="https://www.beepi.com/BackseatDriver">Backseat Driver</a></li>
+                                <li><a href="https://www.beepi.com/Love">Beepi Love</a></li>
+                            </ul>
+                        </td>
+                        <td style="width: 184px;" class="txt14 footerLine">
+                            <ul class="footerLinkList">
+                                <li><a href="https://www.beepi.com/TopFiveQuestions">How It Works</a></li>
+                                <li><a href="https://www.beepi.com/BeepiCertified">Beepi-Certified</a></li>
+                                <li><a href="https://www.beepi.com/PricingAdvantage">Our Pricing Advantage</a></li>
+                                <li><a href="https://www.beepi.com/SellerChecklist">Seller Checklist</a></li>
+                            </ul>
+                        </td>
+                        <td style="width: 138px;" class="txt14 footerLine">
+                            <ul class="footerLinkList">
+                                <li><a href="https://www.beepi.com/FAQ">FAQ</a></li>
+                                <li><a href="https://www.beepi.com/BeepiPrime">Beepi Prime</a></li>
+                                <li><a href="https://www.beepi.com/TermsOfUse">Terms of Use</a></li>
+                                <li><a href="https://www.beepi.com/PrivacyPolicy">Privacy Policy</a></li>
+                            </ul>
+                        </td>
+                        <td style="width: 115px;" class="txt14 footerLine">
+                            <ul class="footerLinkList">
+                                <li><a href="https://www.beepi.com/About#jobs">Jobs</a></li>
+                                <li><a href="https://www.beepi.com/About">About Us</a></li>
+                                <li><a href="https://www.beepi.com/ContactUs">Contact Us</a></li>
+                                <li><a href="https://www.beepi.com/Press">Press</a></li>
+                            </ul>
+                        </td>
+                        <td style="width: 138px; text-align: center; vertical-align: middle;" class="txt14"><span class="beepiColor" style="font-weight: bold;">(888) 542-3374</span></td>
+                        <td style="width: 45px; vertical-align: middle;">
+                            <div class="btFacebookFooter" onclick="window.open(&#39;https://facebook.com/beepihq&#39;);"></div>
+                        </td>
+                        <td style="width: 45px; vertical-align: middle;">
+                            <div class="btTwitterFooter" onclick="window.open(&#39;https://twitter.com/beepi&#39;);"></div>
+                        </td>
+                        <td style="width: 45px; vertical-align: middle;">
+                            <div class="btPinterestFooter" onclick="window.open(&#39;https://pinterest.com/beepihq&#39;);"></div>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="footerBottom">
+                <table style="width: 100%;">
+                    <tbody><tr>
+                        <td style="width: 15%;">&nbsp;
+                            
+                        </td>
+                        <td style="width: 70%; text-align: center;">
+                            <img src="../../images/_temp/heartIcon.gif" width="14" height="12" alt="Made with Love" title="Made with Love"> 
+                            &nbsp;
+                            Made with love in Silicon Valley. Licensed by the California DMV.
+                        </td>
+                        <td style="width: 15%; text-align: right;">
+                            <span class="txt14" style="color: #DDDDDD;">© Beepi, 2014</span>
+                            &nbsp;&nbsp;
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+    </div>
+    <!--</div>-->
+    <!--</form>-->
+
+    <script>
+        (function ($) {
+
+            $(document).ready(function () {
+
+                var sb = new $.slidebars();
+
+                $("#leftPanelButton").bind({
+                    mouseenter: function (e) {
+                        sb.toggle('left');
+                    }
+                });
+
+                $("#rightPanelButton").bind({
+                    mouseenter: function (e) {
+                        sb.toggle('right');
+                    }
+                });
+
+                $('.bxslider').bxSlider({
+                    /*mode: 'fade',*/
+                    captions: true
+                });
+
+            });
+
+
+        })(jQuery);
+
+        //*abren*//
+        $(".open1").click(function () {
+            $(".popupDiv1").fadeIn(400);
+        });
+        $(".open2").click(function () {
+            $(".popupDiv2").fadeIn(400);
+        });
+        $(".open3").click(function () {
+            $(".popupDiv3").fadeIn(400);
+        });
+        $(".open4").click(function () {
+            $(".popupDiv4").show();
+        });
+
+        //*cierran*//
+        $(".btClose1").click(function () {
+            $(".popupDiv1").fadeOut(400);
+        });
+        $(".btClose2").click(function () {
+            $(".popupDiv2").fadeOut(400);
+        });
+        $(".btClose3").click(function () {
+            $(".popupDiv3").fadeOut(400);
+        });
+        $(".btClose4").click(function () {
+            $(".popupDiv4").fadeOut(400);
+        });
+
+    </script>
+
+    
+    <script type="text/javascript">(function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); ga('create', 'UA-43981357-1', 'beepi.com'); ga('require', 'displayfeatures'); ga('send', 'pageview');</script>
+
+
+</body></html>

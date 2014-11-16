@@ -1,0 +1,164 @@
+﻿.btFacebookFooter {
+	display: block;
+	height: 39px;
+	width: 39px;
+	background-image: url(/images/bt_face.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.btFacebookFooter:hover {
+	background-image: url(/images/bt_face.png);
+	background-repeat: no-repeat;
+	background-position: 0px -39px;
+	cursor: pointer;
+}
+
+.btTwitterFooter {
+	display: block;
+	height: 39px;
+	width: 39px;
+	background-image: url(/images/bt_twitter.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.btTwitterFooter:hover {
+	background-image: url(/images/bt_twitter.png);
+	background-repeat: no-repeat;
+	background-position: 0px -39px;
+	cursor: pointer;
+}
+
+.btBeepiLogoFooter {
+	display: block;
+	height: 39px;
+	width: 39px;
+	background-image: url(/images/logo_footer.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.btPinterestFooter {
+	display: block;
+	height: 39px;
+	width: 39px;
+	background-image: url(/images/bt_pinterest.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.btPinterestFooter:hover {
+	background-image: url(/images/bt_pinterest.png);
+	background-repeat: no-repeat;
+	background-position: 0px -39px;
+	cursor: pointer;
+}
+
+.beepiColor {
+	color: #009BFF;
+}
+
+.footer {
+	background-color: #EAEAEA;
+	position: relative; 
+	width: 100%;
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footerLine {
+	border-right: solid #D0D0D0 1px;	
+    text-align: left; 
+    vertical-align: middle;
+}
+
+.footerBottom {
+	background-color: #434343;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	letter-spacing: normal;
+    width: 100%;
+}
+
+.footerLinkList {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.footerLinkList a {
+    color: #777777 !important;
+}
+
+.footerLinkList a:hover {
+	text-decoration: underline !important;
+}
+
+.btBuySmall{
+	float:right;
+	color: #31ADFD;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	text-align: left;
+	margin-left: 4px;
+
+	max-width:150px;
+	line-height:40px;
+	font-weight:400;
+}
+
+.btSellSmall{
+	float:right;
+	color: #31C789;
+	padding-top: 3px;
+	padding-right: 12px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	text-align: left;
+	margin-left: 4px;
+
+	max-width:150px;
+	line-height:40px;
+	font-weight:400;
+	}
+
+
+.btGrisDashSmall {
+	background-image: url(/images/ico_dashboard_small.png);
+    background-repeat: no-repeat;
+}
+.btGrisBlogSmall {
+	background-image: url(/images/ico_blog_small.png);
+    background-repeat: no-repeat;
+}
+.btGrisCertifiedSmall {
+	background-image: url(/images/ico_certified_small.png);
+    background-repeat: no-repeat;
+}
+.btGrisQuestionsSmall {
+	background-image: url(/images/ico_5_small.png);
+    background-repeat: no-repeat;
+}
+
+.headerTxt16 {
+	font-size: 16px;
+    color: #A9A9A9;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.tblHeader td {
+    padding-left: 3px;
+    padding-right: 3px;
+}

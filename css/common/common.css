@@ -1,0 +1,18 @@
+@charset "utf-8";
+body{min-width:320px;color:#333;overflow-x:hidden;-webkit-backface-visibility: hidden;}
+a{color:#333;}
+a:hover{color:#0078db;}
+/**** 文字 链接色 ****/
+
+/*ICON*/
+.YPC_ico{display:inline-block;*display:inline;*zoom:1;background-image:url(../../images/common/icon.png);background-size:700px 1350px;background-repeat:no-repeat;background-color:transparent;background-position:-1000px -1000px; vertical-align:middle;_background-image:url(../../images/common/icon.gif);overflow:hidden;}
+
+.YPC_ico_l_sell{width:260px; height:263px; background-position:-50px 0;}
+.YPC_ico_r_buy{width:260px; height:263px; background-position:-410px 0 ;}
+.YPC_ico_cn{width:200px; height:200px; background-position:-140px -770px ;}
+.YPC_ico_yzc{width:87px; height:55px; background-position:-559px -350px ;}
+.YPC_ico_price{width:43px; height:55px; background-position: -350px -350px;}
+.YPC_ico_sh{width:62px; height:55px; background-position: -558px -420px;}
+
+/*数据隐藏项*/
+.item_hd{ display:none;}
